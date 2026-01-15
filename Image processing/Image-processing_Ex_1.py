@@ -24,7 +24,6 @@ def main():
     green_display = PIL.Image.merge("RGB", (blank, g, blank))
     blue_display = PIL.Image.merge("RGB", (blank, blank, b))
 
-    # השורות האלו חייבות להיות בתוך ה-main (עם רווח)
     red_display.show(title="Red Channel Only")
     green_display.show(title="Green Channel Only")
     blue_display.show(title="Blue Channel Only")

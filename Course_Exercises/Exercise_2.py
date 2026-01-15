@@ -52,12 +52,11 @@ if __name__ == "__main__":
 
 
     # ------------------------------
-    # פונקציה שניתנה ברפרנס: create_random_tuples
+    #  create_random_tuples
     # ------------------------------
     def create_random_tuples(n: int, k: int, types: List[type] = None) -> List[Tuple]:
-        """
-        יצירת רשימה של n טאפלים, כל טאפל באורך k, לפי טיפוסים ב-types.
-        """
+
+
         if types is None:
             types = [int] * k
         if len(types) != k:
@@ -81,7 +80,7 @@ if __name__ == "__main__":
 
 
     # ------------------------------
-    # סעיף 1: שימוש ב-sorted עם key למיון טאפלים
+    # סעיף 1:
     # ------------------------------
     def demo_sorted_on_tuples():
 
