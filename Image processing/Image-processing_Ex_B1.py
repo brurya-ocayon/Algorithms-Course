@@ -5,11 +5,11 @@ import math
 import matplotlib.pyplot as plt
 
 # תרגיל 1
-
+# סעיף א
 
 def degrees_to_radians(degrees):
     return degrees * (math.pi / 180)
-
+#סעיף ב
 # רשימת הערכים במעלות
 angles_deg = [0, 90, 180, 45, 30, 10, 5, 1]
 
@@ -20,7 +20,7 @@ for deg in angles_deg:
     rad = degrees_to_radians(deg)
     s = math.sin(rad)
     c = math.cos(rad)
-    
+ #סעיף ג   
     # הדפסה בפורמט CSV 
     print(f"{deg},{rad:.4f},{s:.4f},{c:.4f}")
 
